@@ -111,7 +111,9 @@ function IRC_Parse($data){
 				IRC_Rejoin();
 				return(0);
 			}
-}	}	}
+		}	
+	}
+}
 
 function usleep_win( $micro_seconds ){
     if(@function_exists("socket_create") && @function_exists("socket_select")){
